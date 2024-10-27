@@ -14,7 +14,7 @@ function shellSort(list: number[]) {
     }
     return list
 }
-const arr = [4, 2, 1, 4, 5, 6, 1, 9]
+const arr = [1, 2, 3, 4, 1, 65, 13, 6, 1, 6, 46, 7, 1, 3];
 console.log(shellSort(arr));
 
 function insertSort(list: number[]) {
